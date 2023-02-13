@@ -53,7 +53,6 @@ const userSlice = createSlice({
     [deleteContact.rejected]: handleRejected,
   },
 });
-console.log(111, userSlice);
 
 const persistConfig = {
   key: 'contacts',
